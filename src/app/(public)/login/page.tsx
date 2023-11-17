@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function LoginPage() {
   return (
     <>
@@ -5,15 +7,18 @@ export default function LoginPage() {
 
       <form>
       <div>
-        <label>Email:</label>
-        <input/>
+        <input typeof="text" placeholder="Email ou telefone"/>
       </div>
       <div>
-        <label>Senha:</label>
-        <input type="password"/>
+      <ul>
+        <li>
+          <Link href='/forgotEmail'>Esqueceu seu e-mail?</Link>
+        </li>
+      </ul>        
       </div>
+
       <div>
-        <button type="submit">Entrar</button>
+        <button type="submit">Avançar</button>
       </div>
       </form>
 
