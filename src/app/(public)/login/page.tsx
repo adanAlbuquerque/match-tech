@@ -9,7 +9,7 @@ export default function LoginPage() {
     <>
       <title>Fazer login nas Contas do Google</title>
 
-      <section>
+      <$.Content>
       <div>
         <img src="../images/googleimg.png" alt="Google icon" />
         <h1>Fazer login</h1>
@@ -28,14 +28,19 @@ export default function LoginPage() {
       </ul>        
       </div>
 
-      <p>Não está no seu computador? Use uma janela privada para fazer login. Saiba mais</p>
+    <div>
+      <p>Não está no seu computador? Use uma janela privada para fazer login. Saiba mais
+      </p>
+    </div>
+
 
       <div>
+        <Link href='signup'>Criar conta</Link>
         <button type="submit">Avançar</button>
       </div>
       </form>
 
-      </section>
+      </$.Content>
 
       
     </>
