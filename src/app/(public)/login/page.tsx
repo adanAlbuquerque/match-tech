@@ -32,7 +32,7 @@ export default function LoginPage() {
 
       <div>
         <Link href='signup'>Criar conta</Link>
-        <button type="submit">Avançar</button>
+        <button type="submit">Próxima</button>
       </div>
       </form>
 

@@ -17,6 +17,14 @@ h3{
   font-weight: 400;
 }
 
+button{
+  border: none;
+  color: rgb(26,115,232);
+  background-color: transparent;
+  font-size: inherit;
+  text-align: left;
+}
+
 
 font-family: "Google Sans","Noto Sans Myanmar UI",arial,sans-serif;
 text-align: center;
