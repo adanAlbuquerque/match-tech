@@ -9,28 +9,24 @@ export default function LoginPage() {
     <>
       <title>Fazer login nas Contas do Google</title>
 
+      <$.Body>
       <$.Content>
-      <div>
+
         <img src="../images/googleimg.png" alt="Google icon" />
         <h1>Fazer login</h1>
-        <h3>Use sua Conta do Google</h3>
-      </div>
+        <h3>Use sua Conta do Google</h3>          
+
 
       <form>
       <$.Container>
         <$.Input type="text" placeholder="Email ou telefone"/>
       </$.Container>
       <div>
-      <ul>
-        <li>
-          <Link href='/forgotEmail'>Esqueceu seu e-mail?</Link>
-        </li>
-      </ul>        
+      <button type="button">Esqueceu seu e-mail?</button>
       </div>
 
     <div>
-      <p>Não está no seu computador? Use uma janela privada para fazer login. Saiba mais
-      </p>
+      Não está no seu computador? Use uma janela privada para fazer login. <a href="https://support.google.com/accounts?p=signin_privatebrowsing&amp;hl=pt-BR" target="_blank" aria-label="Saiba mais sobre como usar o Modo visitante">Saiba mais</a>
     </div>
 
 
@@ -42,7 +38,9 @@ export default function LoginPage() {
 
       </$.Content>
 
-      
+              
+      </$.Body>
+
     </>
   )
 }
