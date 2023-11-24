@@ -9,10 +9,12 @@ export default function LoginPage() {
 
       <$.Body>
         <$.Section>
-
+        <$.Header>
           <img src="../images/googleimg.png" alt="Google icon" />
           <h1>Fazer login</h1>
-          <h3>Use sua Conta do Google</h3>
+          <h3>Use sua Conta do Google</h3>    
+        </$.Header>
+
 
           <$.Form>
             <div>
