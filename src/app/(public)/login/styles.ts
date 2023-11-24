@@ -100,10 +100,12 @@ export const Section = styled.section`
   background-color: #fff;
 
   div:nth-child(3) {
+
+  margin-bottom: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 100%;
 
   input {
     font-family: "Google Sans", "Roboto", Arial, sans-serif;
@@ -129,14 +131,15 @@ export const Section = styled.section`
     color: #666;
     margin-top: 40px;
     margin-bottom: 7vh;
+  }
 
-    a {
+  a {
       color: rgb(26, 115, 232);
       text-decoration: none;
       font-weight: 500;
+      font-size: 14px;
       letter-spacing: 0.25px;
     }
-  }
 `;
 
 
