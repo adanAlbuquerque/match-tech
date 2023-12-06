@@ -33,7 +33,7 @@ export default function LoginPage() {
           </$.Form>
             <div>
               <Link href='signup'>Criar conta </Link>
-              <input type="submit" value="Avançar"/>
+              <Link href='password'><input type="submit" value="Avançar"/></Link>
             </div>
         </$.Section>
       </$.Body>

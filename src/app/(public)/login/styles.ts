@@ -54,7 +54,7 @@ input {
       color: #4285f4;
       cursor: pointer;
       font-size: 14px;
-      margin-bottom: 4vh;
+      margin-bottom: 2vh;
 
       &:hover {
         text-decoration: none;
@@ -130,7 +130,7 @@ export const Section = styled.section`
     font-size: 14px;
     color: #666;
     margin-top: 40px;
-    margin-bottom: 7vh;
+    margin-bottom: 6vh;
   }
 
   a {
